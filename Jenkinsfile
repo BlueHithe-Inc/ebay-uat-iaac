@@ -19,6 +19,7 @@ node
         }
  stage('5.DeployTomcat')
         {
+          // blocks
        // deploy adapters: [tomcat9(credentialsId: 'Tomcat_Credentials', path: '', url: 'http://3.85.28.18:7777/')], contextPath: null, war: '**/*.war'
         }   
   } 
